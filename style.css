@@ -1,0 +1,253 @@
+body {
+	background-color: #1A1A1A;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+img {
+	display:block;
+	Margin: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1 + img + p {
+	text-align: center;
+}
+
+.updates h2 + p {
+	text-indent: 30px;
+}
+
+.updates {
+	background-color: #292929;
+	border: 2px solid teal;
+	padding: 15px;
+	Border-radius: 10px;
+}
+
+.updates h2 {
+	margin-top: 0;
+}
+
+.announcement {
+	Text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.upcoming {
+	background-color: #242424;
+	border-left: 4px solid teal;
+	border-radius: 8px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.upcoming h2 {
+	margin-top: 0;
+}
+
+nav {
+	background-color: #242424;
+	padding: 15px;
+	text-align: center;
+	border-bottom: 2px solid teal;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: 15px;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: turquoise;
+}
+
+h1, h2 {
+	font-family: 'Caveat Brush' , cursive;
+	color: turquoise;
+}
+
+.event-card {
+	background-color: #242424;
+	border: 2px solid teal;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.event-card h2 {
+	margin-top: 0;
+	text-align: center;
+	color: turquoise;
+}
+
+.event-image {
+	display: block;
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	border-radius: 8px;
+}
+
+.lightbox {
+	display: none;
+	position:fixed;
+	inset: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.lightbox:target {
+	display: flex;
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 90
+	object-fit: contain;
+}
+
+.close-lightbox {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.event-card p a {
+	color: turquoise;
+}
+
+.rules-slogan {
+	text-align: center;
+	color: turquoise;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.expect-box {
+	background-color: #292929;
+	border-radius: 10px;
+	padding: 25px;
+	margin: 25px 0;
+}
+
+.expect-box h2 {
+	text-align: center;
+	margin-top: 0;
+	border-bottom: 2px solid turquoise;
+	padding-bottom: 15px;
+}
+
+.expect-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 20px;
+	row-gap: 5px;
+}
+
+.expect-item {
+	padding: 15px;
+}
+
+.expect-item h3 {
+	color: turquoise;
+	margin-top: 0;
+}
+
+.expect-item p {
+	margin-bottom: 0;
+}
+
+.veloster-note {
+	Background-color: #292929;
+	border-left: 4px solid turquoise;
+	border-radius: 6px;
+	padding: 12px 15px;
+	margin: 15px 0;
+}
+
+.our-story {
+	background-color: #292929;
+	border-left: 4px solid turquoise;
+	border-radius: 10px;
+	padding: 25px;
+	margin: 25px 0;
+}
+
+.our-story h2 {
+	margin-top: 0;
+	border-bottom: 2px solid turquoise;
+	padding-bottom: 10px;
+}
+
+.our-community {
+	padding: 20px 30px;
+	margin: 30px 0;
+	border-left: 4px solid turquoise;
+}
+
+.our-community h2 {
+	margin-top: 0;
+	color: turquoise;
+}
+
+.about-closing {
+	text-align: center;
+	color: turquoise;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.about-slogan {
+	font-size: 20px;
+	margin-top: 5px;
+	color: white;
+}
+
+a{
+	color: turquoise;
+}
+
+a:hover {
+	color: white;
+}
+
+
+.social-links a {
+    display: inline-block;
+    background-color: #242424;
+    color: turquoise;
+    border: 2px solid teal;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.social-links a:hover {
+    background-color: teal;
+    color: white;
+}
+
+
+nav a.active {
+    color: turquoise;
+    border-bottom: 2px solid turquoise;
+    padding-bottom: 5px;
+}
