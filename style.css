@@ -251,3 +251,34 @@ nav a.active {
     border-bottom: 2px solid turquoise;
     padding-bottom: 5px;
 }
+
+
+
+
+/* Mobile phones only */
+@media screen and (max-width: 600px) {
+
+	body{
+		font-family: Arial, sans-serif;
+	}
+
+	p{
+		font-family: Arial, sans-serif;
+		font-size: 18px;
+		line-height: 1.6;
+	}
+
+	h1, h2 {
+		font-size: 26px;
+	}
+
+	nav a {
+		font-size: 14px;
+		margin: 5px;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
