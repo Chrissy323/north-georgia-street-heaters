@@ -256,6 +256,10 @@ nav a.active {
 	text-align: center;
 }
 
+h1 + p {
+	text-align: center;
+}
+
 
 
 /* Mobile phones only */
