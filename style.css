@@ -269,7 +269,9 @@ nav a.active {
 	}
 
 	h1, h2 {
+		font-family: Arial, sans-serif;
 		font-size: 26px;
+		font-weight: bold;
 	}
 
 	nav a {
